@@ -1,6 +1,6 @@
 $( document ).ready(
   $('.editor').trumbowyg({
-    svgPath: '/alu0100818208/trumbowyg/icons/icons.svg'
+    svgPath: '/html_avanzado/trumbowyg/icons/icons.svg'
     lang: 'es', // Idioma (es.min.js incluido)
     btns: [
             ['bold', 'italic', 'underline', 'strikethrough'],
