@@ -1,4 +1,4 @@
-$( document ).ready(
+$( document ).ready( function() {
   $('.editor').trumbowyg({
     svgPath: '/html_avanzado/trumbowyg/icons/icons.svg'
     lang: 'es', // Idioma (es.min.js incluido)
@@ -12,5 +12,5 @@ $( document ).ready(
             ['viewHTML'],
             ['fullscreen']
           ],
-  });
+  });}
 );
