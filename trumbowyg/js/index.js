@@ -1,6 +1,6 @@
 $( document ).ready( function() {
     $('.editor').trumbowyg({
-      svgPath: '/html_avanzado/trumbowyg/icons/icons.svg'
+      svgPath: '/html_avanzado/trumbowyg/icons/icons.svg',
       lang: 'es', // Idioma (es.min.js incluido)
       btns: [
               ['bold', 'italic', 'underline', 'strikethrough'],
@@ -14,4 +14,3 @@ $( document ).ready( function() {
             ],
     });
   });
-);
